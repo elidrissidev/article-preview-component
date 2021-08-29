@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#share-menu-desktop::after {
+  content: '';
+  top: 85%;
+  @apply inline-block h-4 w-4 bg-darkBlue-400 absolute transform rotate-45;
+}

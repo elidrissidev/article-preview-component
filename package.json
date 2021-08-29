@@ -1,0 +1,21 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "private": true,
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "npm run clean && parcel serve ./src/index.html",
+    "build": "npm run clean && parcel build ./src/index.html",
+    "clean": "rimraf dist/"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "autoprefixer": "^10.3.3",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.6",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^2.2.7"
+  },
+  "author": "Mohamed ELIDRISSI",
+  "license": "MIT"
+}
